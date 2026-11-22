@@ -1,0 +1,9 @@
+#!name = Google One 20TB
+#!desc = one.google.com/ai 响应体替换：20tb.m.v2 → 20tb.m ｜ 30tb.ai.pro.m → 30tb.m
+#!system = ios, mac
+
+[MITM]
+hostname = %APPEND% one.google.com
+
+[Script]
+GoogleOne-20TB = type=http-response, pattern=^https://one\.google\.com/, requires-body=1, max-size=8388608, script-path=https://RAW_HOST/G1_JS_URL
