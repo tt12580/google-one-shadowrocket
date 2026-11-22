@@ -6,4 +6,4 @@
 hostname = %APPEND% one.google.com
 
 [Script]
-GoogleOne-20TB = type=http-response, pattern=^https://one\.google\.com/, requires-body=1, max-size=8388608, script-path=https://gcore.jsdelivr.net/gh/tt12580/google-one-shadowrocket@main/g1.js
+GoogleOne-20TB = type=http-response, pattern=^https://one\.google\.com/, requires-body=1, max-size=8388608, script-path=https://gcore.jsdelivr.net/gh/tt12580/google-one-shadowrocket@main/g2.js
